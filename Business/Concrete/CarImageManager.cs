@@ -20,9 +20,9 @@ namespace Business.Concrete
     {
         ICarImageDal _carImageDal;
 
-        public CarImageManager(ICarImageDal carImageDAL)
+        public CarImageManager(ICarImageDal carImageDal)
         {
-            _carImageDal = carImageDAL;
+            _carImageDal = carImageDal;
         }
         [ValidationAspect(typeof(CarImageValidator))]
         public IResult Add(IFormFile file, CarImage carImage)
