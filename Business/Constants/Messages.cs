@@ -35,5 +35,6 @@ namespace Business.Constants
         public static string UpdatedRental = "Araba Kiralama işlemi güncellendi.";
         public static string FailedRentalAddOrUpdate = "Bu araba henüz teslim edilmediği için kiralayamazsınız.";
         public static string ReturnedRental = "Kiraladığınız araç teslim edildi.";
+        internal static string CarImageLimitExceeded = "Fotoğraf limiti aşıldı.";
     }
 }
